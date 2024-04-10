@@ -27,14 +27,14 @@ owner:
 # Disable comments for individual pages/posts by specifying 'comments: false' in the page/post YAML Front Matter.
 #
 comments :
-  provider : disqus
+  provider : false
   disqus :
     short_name : ""
 
 # Internal nav
 nav:
   - GALLERY: "https://KPPhotoGallery.github.io/photo-gallery/gallery/"  
-  - JOURNAL: "https://KPPhotoGallery.github.io/photo-gallery/journal/"
+  # - JOURNAL: "https://KPPhotoGallery.github.io/photo-gallery/journal/"
   - ABOUT: "https://KPPhotoGallery.github.io/photo-gallery/about/"
 
 # All translation keys
